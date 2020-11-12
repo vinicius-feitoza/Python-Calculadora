@@ -1,12 +1,11 @@
 from tkinter import *
 
 root = Tk()
+root.title("Calculadora")
 
 e = Entry(root, width=20, borderwidth=2, font=14)
 e.grid(row=0, columnspan=3)
 e.get()
-
-root.title("Calculadora")
 
 def numero1():
     final = e.get()
