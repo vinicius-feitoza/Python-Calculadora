@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 
-e = Entry(root, width=30, borderwidth=2)
+e = Entry(root, width=20, borderwidth=2, font=14)
 e.grid(row=0, columnspan=3)
 e.get()
 
